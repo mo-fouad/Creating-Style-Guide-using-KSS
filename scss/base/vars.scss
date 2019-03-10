@@ -1,0 +1,50 @@
+// Variables
+//
+// this is the main Variables that we may use all over the website
+//
+// $assetPath - '/assets'; this is the Assets path inside www folder.
+// $pageWidth - 1168px; this is main container width.
+//
+// Styleguide _Variables.1-General
+
+$assetPath: '/assets';
+$pageWidth: 1168px;
+
+// fonts Variables
+//
+// this is the main Variables that we may use all over the website
+//
+// $fontPath -  $assetPath + '/fonts' ; just adding the fonts folder inside the assets one.
+// $fontFamily - we Always use ( Open Sans ) as a min font and (sans-serif) as a backup fot it
+// $thin -  100;
+// $extraLight -  200;
+// $light -  300;
+// $normal -  400;
+// $medium -  500;
+// $semiBold -  600;
+// $bold -  700;
+// $extraBold -  800;
+// $ultraBold -  900;
+//
+// Styleguide _Variables.2-fonts
+
+$fontPath: $assetPath + '/fonts';
+$fontFamily: "Open Sans", sans-serif;
+$thin : 100;
+$extraLight : 200;
+$light :300;
+$normal : 400;
+$medium : 500;
+$semiBold : 600;
+$bold : 700;
+$extraBold : 800;
+$ultraBold : 900;
+
+
+$fontSizeHeaderMenu: 16px;
+$fontSizeHeaderSmall: 13px;
+$fontSizeLogo: 18px;
+$fontSizeContent: 15px;
+$fontSizeContentTitle: 36px;
+$fontSizeContentHeader: 24px;
+//$fontColor: $dark;

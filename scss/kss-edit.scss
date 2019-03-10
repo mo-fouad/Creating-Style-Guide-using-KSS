@@ -1,0 +1,35 @@
+.kss-modifiers__example {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+
+    > * {
+        margin: 10px 10px;
+    }
+
+    > .ico {
+        font-size: 50px;
+    }
+
+}
+
+.kss-modifiers__modifier {
+    padding: 20px 0;
+}
+
+.exampleDiv {
+    width: 450px;
+    height: 150px;
+    display: block;
+    margin: 20px 0;
+}
+
+.kss-section__description code {
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #1067cc;
+}
+
+.kss-title, .kss-section__item, .kss-nav__item a.kss-state-active, .kss-modifiers__heading, .kss-modifiers__name, .kss-markdown h1, .kss-markdown h2 {
+    color: #1067cc;
+}

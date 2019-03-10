@@ -1,0 +1,135 @@
+// Main Colors
+//
+// Colors we use for highlighting states.
+//
+// $primary - #4A90E2;          primary
+// $primaryHover - #3382DD;          primary hover Effect
+// $dark - #3A536D;             dark
+// $standby - #48606F;          standby
+// $inactive - #9EB7C6;         inactive
+// $stroke - #D5E1E9;           stroke
+// $background - #EFF3F9;       background
+//
+// Styleguide Colors.1
+
+
+// Basic colors from invision
+$primary: #4A90E2;
+$primaryHover: #3382DD;
+$dark: #3A536D;
+$standby: #48606F;
+$inactive: #9EB7C6;
+$stroke: #D5E1E9;
+$background: #EFF3F9;
+
+
+// Extra Colors
+//
+// Colors we use for highlighting states.
+//
+// $warning - #D0021B; warning
+// $backgroundFaded - rgba(239,243,249,0.8); background Faded
+// $backgroundLight - #F7F9FC; background Light
+// $white - #fff; just White
+// $black - #000; just black
+// $invertedPrimary - #fff;     inverted primary color
+// $contentBackground - #fff;   content Background
+//
+// Styleguide Colors.2
+
+
+$warning: #D0021B;
+$backgroundFaded: rgba(239,243,249,0.8);
+$backgroundLight: #F7F9FC;
+$white :  #fff;
+$black :  #000;
+$invertedPrimary: $white;
+$contentBackground: $white;
+
+
+// Danish Course
+//
+// Colors we use for highlighting states.
+//
+//$courseSpellingTest - #003152;    Spelling Test
+//$courseDaSpelling - #02476A;    Danish spelling
+//$courseReadingTest - #03567F;    Reading Test
+//$courseReadingTestExercise - #096998;    Reading Test Exercise
+//$courseDaSpellingSample - #1178AB;   Danish Spelling Test
+//$courseDaDictation - #1078AB;    Danish dictation
+//$courseDaGramma - #3194C5;    Danish Grammar
+//$courseDaAsSecond - #42A3D3;    Danish As Second
+//$courseDaToThird - #5FB4DE;  Danish As Third
+//
+// Styleguide Colors.3
+
+$courseSpellingTest: #003152;
+$courseDaSpelling: #02476A;
+$courseReadingTest: #03567F;
+$courseReadingTestExercise: #096998;
+$courseDaSpellingSample : #1178AB;
+$courseDaDictation: #1078AB;
+$courseDaGramma: #3194C5;
+$courseDaAsSecond: #42A3D3;
+$courseDaToThird: #5FB4DE;
+
+// Adult Course
+//
+// Colors we use for highlighting states.
+//
+//$courseDaAdult - #46595E;         Danish DaAdult
+//$courseDaAsForeign - #657478;     Danish AsForeign
+//$courseDaAdultGramma - #8A9B9F;   Danish Adult Grammar
+//
+// Styleguide Colors.4
+
+$courseDaAdult: #46595E;
+$courseDaAsForeign: #657478;
+$courseDaAdultGramma: #8A9B9F;
+
+
+// English Course
+//
+// Colors we use for highlighting states.
+//
+//$courseEn - #027C67;         English
+//$courseEnFP - #10A78C;     English FP
+//$courseEnTest - #48CBB4;   English Test
+//$courseEnTestTraining - #82E6C7;   English Test Training
+//
+// Styleguide Colors.5
+
+$courseEn: #027C67;
+$courseEnFP: #10A78C;
+$courseEnTest: #48CBB4;
+$courseEnTestTraining: #82E6C7;
+
+
+// German Course
+//
+// Colors we use for highlighting states.
+//
+//$courseDe - #3F4074;              German
+//$courseDeTest - #45468A;            German Test
+//$courseDeEx - #545585;            German exercise
+//$courseDeFP - #7072A3;            German exercise_FP
+//
+// Styleguide Colors.6
+
+$courseDe: #3F4074; // German
+$courseDeTest: #45468A; // German Test
+$courseDeEx: #545585; // German exercise
+$courseDeFP: #7072A3; //German exercise_FP
+
+
+// French Course
+//
+// Colors we use for highlighting states.
+//
+//$courseFr - #B74200;              Fransk
+//
+// Styleguide Colors.6
+
+$courseFr: #B74200;
+
+

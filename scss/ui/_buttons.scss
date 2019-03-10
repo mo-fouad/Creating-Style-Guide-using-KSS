@@ -1,0 +1,111 @@
+/*
+Buttons
+
+to use this button elements, you use the general-style ` gt-btn ` + any modifier like ` gt-btn-blue ` or ` gt-btn-small `,<br />
+Also you can add shadow to any one of them by adding this class to your button `gt-btn-shadow` .
+
+Markup: markups/buttons.html
+
+gt-btn--blue - this is the main blue button .. just add it's class besides gt-btn
+gt-btn--gray - this is the main gray button .. just add it's class besides gt-btn
+gt-btn--red - this is the main red button .. just add it's class besides gt-btn
+gt-btn--white - this is the white button .. just add it's class besides gt-btn
+gt-btn--shadow - this is the shadow for the button .. just add it's class besides gt-btn to add some shadow effect to any buttons
+gt-btn--mid - this is the mid Modifier that you can add to any button to make it Mid Size .. just add it's class besides gt-btn
+gt-btn--small - this is the small Modifier that you can add to any button to make it Small Size .. just add it's class besides gt-btn
+gt-btn--wide - this is just a modifier that can be added to the `gt-btn` class to add padding of 100px left and right.
+gt-btn--full - this is just a modifier that can be added to the `gt-btn` class to to make the button full width of it's container.
+
+Styleguide Ui-Elements.buttons
+*/
+.gt-btn{
+    font-family: $fontFamily;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 15px 51px;
+    border: 1px solid;
+    transition: all 200ms ease-out;
+    box-sizing: border-box;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+
+    &--blue {
+        color: $white;
+        background-color: $primary;
+        border-color: $primary;
+
+        &:hover {
+            background-color: $primaryHover;
+            color: $white;
+        }
+    }
+
+    &--gray {
+        color: $stroke;
+        background: $white;
+        border-color: $stroke ;
+
+        &:hover {
+            color: $inactive;
+            border-color: $inactive ;
+        }
+    }
+
+    &--red {
+        color: $warning;
+        background: $white;
+        border-color: $warning;
+
+        &:hover {
+            color: $white;
+            background: $warning;
+        }
+    }
+
+    &--white {
+        color: $white;
+        background: transparent;
+        border-color: $white;
+
+        &:hover {
+            color: $dark;
+            background: $white;
+        }
+    }
+
+    &--small {
+        padding: 5px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    &--mid {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    &--shadow {
+        box-shadow: 0 3px 7px 0 rgba(74,144,226,0.56), 0 16px 20px 0 rgba(74,144,226,0.42);
+
+        &:active {
+            box-shadow: 0 3px 7px 0 rgba(74,144,226,0.56), 0 6px 10px 0 rgba(74,144,226,0.42);
+        }
+    }
+
+    &--wide {
+        padding: 15px 100px;
+    }
+
+    &--full {
+        width: 100%;
+        display: inline-block;
+    }
+}

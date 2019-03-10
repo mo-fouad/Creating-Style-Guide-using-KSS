@@ -1,0 +1,9 @@
+{
+  "title": "Grammatip Style Guide",
+  "source": "scss/",
+  "destination": "www/sg/",
+  "builder": "node_modules/michelangelo/kss_styleguide/custom-template/",
+  "css": [
+    "../build/css/app.css"
+  ]
+}

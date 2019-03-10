@@ -1,0 +1,33 @@
+/*
+ Shadow Mixins
+
+ in this Mixin .. you can use both to the class directly to your tag ` add-shadow ` or use the mixin it self inside your SCSS as following
+
+ Markup:<div class="exampleDiv add-box-shadow"></div>
+
+ Usage:
+
+ * `@include  boxShadowMain();`
+
+
+
+ Style guide: Mixins.1
+ */
+
+@mixin boxShadowMain() {
+    box-shadow: 0 -1px 4px 0 rgba(226, 236, 245, 0.5), 0 16px 20px 0 rgba(204, 221, 235, 0.9);
+}
+
+.add-box-shadow {
+   @include boxShadowMain();
+}
+
+
+
+@mixin clearfix() {
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}

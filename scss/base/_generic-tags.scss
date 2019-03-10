@@ -1,0 +1,18 @@
+body{
+    position: relative;
+    font-family: $fontFamily;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    color: $dark;
+    background-color: $background;
+    min-width: $pageWidth;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: $fontSizeContent;
+    line-height: 1.5em;
+}

@@ -1,0 +1,126 @@
+/*
+Typography
+
+we have a lot of different cases in our web site for the font and heading types, if you have any text start with adding the element class to it
+for example if we are going to use header or sub header --> `.txt__header` or `.txt__sub-header`, after that you can add the modifier that you want `txt--blue` or `txt--dark-gray`,
+whether color or font-weight as follow `txt--thin` or `txt--semi-bold` <br />
+please get back this [link](https://projects.invisionapp.com/d/#/console/10188675/337999359/preview) to know more about this typography design, <br />
+also to know more about the different font weights please visit this this [link](https://projects.invisionapp.com/d/#/console/10188675/303628679/preview)
+
+Markup: markups/typography.html
+
+txt__header - Header text `h1`,, make sure that you add a class for txt before using it.
+txt__sub-header - sub Header text `h2, h3`,, make sure that you add a class for txt before using it.
+txt__paragraph - normal paragraph text `p`,, make sure that you add a class for txt before using it.
+txt__table - text that we may use in the tables `table`,, make sure that you add a class for txt before using it.
+txt__tip - font sizes and text that we may use in the tooltips ,, make sure that you add a class for txt before using it.
+txt--blue - adding blue color to your text,, make sure that you add a class for txt before using it.
+txt--dark-blue - adding dark-blue color to your text,, make sure that you add a class for txt before using it.
+txt--dark-gray - adding dark-gray color to your text,, make sure that you add a class for txt before using it.
+txt--gray - adding gray color to your text,, make sure that you add a class for txt before using it.
+txt--light-gray - adding light-gray color to your text,, make sure that you add a class for txt before using it.
+txt--white - adding white color to your text,, make sure that you add a class for txt before using it.
+txt--thin - adding font weight `thin` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--extra-light - adding font weight `extra-light` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--light - adding font weight `light` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--normal - adding font weight `normal` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--medium - adding font weight `medium` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--semi-bold - adding font weight `semi-bold` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--bold - adding font weight `bold` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--extra-bold - adding font weight `extra-bold` to your text ad a modifier,, make sure that you add a class for txt before using it.
+txt--ultra-bold - adding font weight `ultra-bold` to your text ad a modifier,, make sure that you add a class for txt before using it.
+
+Styleguide Ui-Elements.2typography
+*/
+
+.txt {
+    &__header {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    &__sub-header {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    &__paragraph {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    &__table {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    &__tip {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    // now Adding modifiers.
+    // --> colors
+
+    &--blue {
+        color: $primary;
+    }
+
+    &--dark-blue {
+        color: $dark;
+    }
+
+    &--dark-gray {
+        color: $inactive;
+    }
+
+    &--gray {
+        color: $stroke;
+    }
+
+    &--light-gray {
+        color: $background;
+    }
+
+    &--white {
+        color: $white;
+    }
+
+    // --> font weights :(
+
+    &--thin {
+        font-weight: $thin;
+    }
+
+    &--extra-light {
+        font-weight: $extraLight;
+    }
+
+    &--light {
+        font-weight: $light;
+    }
+
+    &--normal {
+        font-weight: $normal;
+    }
+
+    &--medium {
+        font-weight: $medium;
+    }
+
+    &--semi-bold {
+        font-weight: $semiBold;
+    }
+
+    &--bold {
+        font-weight: $bold;
+    }
+
+    &--extra-bold {
+        font-weight: $extraBold;
+    }
+
+    &--ultra-bold {
+        font-weight: $ultraBold;
+    }
+}

@@ -1,0 +1,290 @@
+/*
+Icons
+
+In this file you will find all the icons that located in this [File](https://projects.invisionapp.com/d/main/default/#/console/10188675/222913435/preview)
+some icons can be made just using CSS, they are not included here :) </br>
+To use this icons directly in your code just put an <i> tag and add a class ico for it and then you can add what ever you want from the icons below `ico--**`.
+
+Markup: markups/icons.html
+
+ico--arrow__down - or you can just use this code as a content --> e900
+ico--arrow__up - or you can just use this code as a content --> e903
+ico--arrow__left - or you can just use this code as a content --> e901
+ico--arrow__right - or you can just use this code as a content --> e92
+ico--message - or you can just use this code as a content --> e904
+ico--carrow__down - or you can just use this code as a content --> e905
+ico--carrow__up - or you can just use this code as a content --> e914
+ico--correct - or you can just use this code as a content --> e906
+ico--printer - or you can just use this code as a content --> e907
+ico--date - or you can just use this code as a content --> e908
+ico--filter - or you can just use this code as a content --> e909
+ico--fullscreen - or you can just use this code as a content --> e90a
+ico--inspect - or you can just use this code as a content --> e90b
+ico--intro - or you can just use this code as a content --> e90c
+ico--lock - or you can just use this code as a content --> e90d
+ico--logo__circle - or you can just use this code as a content --> e90e
+ico--logo__adult - or you can just use this code as a content --> e924
+ico--logo__danish - or you can just use this code as a content --> e925
+ico--logo__english - or you can just use this code as a content --> e926
+ico--logo__french - or you can just use this code as a content --> e927
+ico--logo__german - or you can just use this code as a content --> e928
+ico--minimize - or you can just use this code as a content --> e90f
+ico--more - or you can just use this code as a content --> e910
+ico--edit - or you can just use this code as a content --> e911
+ico--trash - or you can just use this code as a content --> e912
+ico--cup - or you can just use this code as a content --> e913
+ico--search - or you can just use this code as a content --> e915
+ico--signin - or you can just use this code as a content --> e916
+ico--speaker - or you can just use this code as a content --> e917
+ico--close - or you can just use this code as a content --> e918
+ico--timer - or you can just use this code as a content --> e919
+ico--settings - or you can just use this code as a content --> e91a
+ico--statistcs - or you can just use this code as a content --> e91b
+ico--smartPhone - or you can just use this code as a content --> e91e
+ico--medal - or you can just use this code as a content --> e91f
+ico--chart - or you can just use this code as a content --> e920
+ico--eye - or you can just use this code as a content --> e921
+ico--play - or you can just use this code as a content --> e922
+ico--facebook - or you can just use this code as a content --> e923
+ico--globe - or you can just use this code as a content --> e929
+ico--phone - or you can just use this code as a content --> e92a
+ico--shoping - or you can just use this code as a content --> e92b
+ico--support - or you can just use this code as a content --> e92c
+ico--info - or you can just use this code as a content --> e92d
+ico--chat - or you can just use this code as a content --> e92e
+ico--feedback - or you can just use this code as a content --> e92f
+ico--share - or you can just use this code as a content --> e930
+ico--paper-lock - or you can just use this code as a content --> e931
+ico--paper-person - or you can just use this code as a content --> e935
+ico--paper-text - or you can just use this code as a content --> e939
+ico--less - or you can just use this code as a content --> e91d
+
+
+Styleguide Icons.2FontIcons
+*/
+
+
+$fontIcon: 'Grammatip Icons';
+
+$iconArrowDown: '\e900'; // e900
+$iconArrowUp: '\e903'; // e903
+$iconArrowLeft: '\e901'; // e901
+$iconArrowRight: '\e902'; // e902
+$iconMessages: '\e904'; // e904
+$iconCircleDropdown: '\e905'; // e905
+$iconScrollUp: '\e914'; // e914
+$iconCorrect: '\e906'; // e906
+$iconPrinter: '\e907'; // e907
+$iconDatepicker: '\e908'; // e908
+$iconFilter: '\e909'; // e909
+$iconFullscreen: '\e90a'; // e90a
+$iconInspect: '\e90b'; // e90b
+$iconIntroduktion: '\e90c'; // e90c
+$iconLock: '\e90d'; // e90d
+$iconLogoCircle: '\e90e'; // e90e
+$iconMinimize: '\e90f'; // e90f
+$iconMore: '\e910'; // e910
+$iconExercise: '\e911'; // e911
+$iconTrash: '\e912'; // e912
+$iconTrophy: '\e913'; // e913
+$iconSearch: '\e915'; // e915
+$iconSigning: '\e916'; // e916
+$iconSpeaker: '\e917'; // e917
+$iconCloseWrong: '\e918'; // e918
+$iconHandinDeadline: '\e919'; // e919
+$iconSettings: '\e91a'; // e91a
+$iconStatistics: '\e91b'; // e91b
+$smartPhone: '\e91e'; //e91e;
+$medal: '\e91f'; //e91f;
+$chart: '\e920'; //e920;
+$play: '\e922'; //e922;
+$eye: '\e921'; //e921;
+$facebook: '\e923'; //e923;
+$adult: '\e924';
+$danish: '\e925';
+$english: '\e926';
+$french: '\e927';
+$german: '\e928';
+$globe: '\e929';
+$phone: '\e92a';
+$shoping: '\e92b';
+$support: '\e92c';
+$info: '\e92d';
+$chat: '\e92e';
+$feedback: '\e92f';
+$share: '\e930';
+$paper-lock: '\e931';
+$paper-person: '\e935';
+$paper-text: '\e939';
+$iconLess: '\e91d'; // e91d
+
+.ico {
+    font-family: $fontIcon;
+
+    &--arrow {
+        &__down:before {
+            content: $iconArrowDown;
+        }
+
+        &__up:before {
+            content: $iconArrowUp;
+        }
+
+        &__left:before {
+            content: $iconArrowLeft;
+        }
+
+        &__right:before {
+            content: $iconArrowRight;
+        }
+    }
+    &--message:before {
+        content: $iconMessages;
+    }
+    &--carrow {
+        &__down:before {
+            content: $iconCircleDropdown;
+        }
+
+        &__up:before {
+            content: $iconScrollUp;
+        }
+    }
+    &--correct:before {
+        content: $iconCorrect;
+    }
+    &--printer:before {
+        content: $iconPrinter;
+    }
+    &--date:before {
+        content: $iconDatepicker;
+    }
+    &--filter:before {
+        content: $iconFilter;
+    }
+    &--fullscreen:before {
+        content: $iconFullscreen;
+    }
+    &--inspect:before {
+        content: $iconInspect;
+    }
+    &--intro:before {
+        content: $iconIntroduktion;
+    }
+    &--lock:before {
+        content: $iconLock;
+    }
+    &--logo {
+        &__circle:before {
+            content: $iconLogoCircle;
+        }
+        &__adult:before {
+            content: $adult;
+        }
+        &__danish:before {
+            content: $danish;
+        }
+        &__english:before {
+            content: $english;
+        }
+        &__french:before {
+            content: $french;
+        }
+        &__german:before {
+            content: $german;
+        }
+    }
+    &--minimize:before {
+        content: $iconMinimize;
+    }
+    &--more:before {
+        content: $iconMore;
+    }
+    &--edit:before {
+        content: $iconExercise;
+    }
+    &--trash:before {
+        content: $iconTrash;
+    }
+    &--cup:before {
+        content: $iconTrophy;
+    }
+    &--search:before {
+        content: $iconSearch;
+    }
+    &--signin:before {
+        content: $iconSigning;
+    }
+    &--speaker:before {
+        content: $iconSpeaker;
+    }
+    &--close:before {
+        content: $iconCloseWrong;
+    }
+    &--timer:before {
+        content: $iconHandinDeadline;
+    }
+    &--settings:before {
+        content: $iconSettings;
+    }
+    &--statistcs:before {
+        content: $iconStatistics;
+    }
+    &--smartPhone:before {
+        content: $smartPhone;
+    }
+    &--medal:before {
+        content: $medal;
+    }
+    &--chart:before {
+        content: $chart;
+    }
+    &--eye:before {
+        content: $eye;
+    }
+    &--play:before {
+        content: $play;
+    }
+    &--facebook:before {
+        content: $facebook;
+    }
+    &--globe:before {
+        content: $globe;
+    }
+    &--phone:before {
+        content: $phone;
+    }
+    &--shoping:before {
+        content: $shoping;
+    }
+    &--support:before {
+        content: $support;
+    }
+    &--info:before {
+        content: $info;
+    }
+    &--chat:before {
+        content: $chat;
+    }
+    &--feedback:before {
+        content: $feedback;
+    }
+    &--share:before {
+        content: $share;
+    }
+    &--paper-lock:before {
+        content: $paper-lock;
+    }
+    &--paper-person:before {
+        content: $paper-person;
+    }
+    &--paper-text:before {
+        content: $paper-text;
+    }
+    &--less:before {
+        content: $iconLess;
+    }
+}
+
+// normal icons with out any Font icons
+

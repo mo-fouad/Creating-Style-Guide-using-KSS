@@ -1,0 +1,53 @@
+/*
+Icon Circle
+
+if you want to just use an empty circle you can just use this class `ico-status-circle`
+
+Markup: <span class="ico-status-circle {{modifier_class}}"></span>
+
+ico-status-circle__half - this is how it is going to be when it is half size
+ico-status-circle__full - this is how it is going to be when it is full size
+
+
+Styleguide Icons.1Circle
+*/
+
+
+.ico-status-circle {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    min-height: 30px;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        border: 5px solid #D5E1E9;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    &__half {
+        &:after {
+            border-top-color: #4A90E2;
+            border-right-color: #4A90E2;
+        }
+    }
+
+    &__full {
+        &:after {
+            border-color: #4A90E2;
+        }
+    }
+}
+
